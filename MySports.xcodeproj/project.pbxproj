@@ -9,21 +9,53 @@
 /* Begin PBXBuildFile section */
 		ED06DFD028E7B04B008D930A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED06DFCF28E7B04B008D930A /* AppDelegate.swift */; };
 		ED06DFD228E7B04B008D930A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED06DFD128E7B04B008D930A /* SceneDelegate.swift */; };
-		ED06DFD428E7B04B008D930A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED06DFD328E7B04B008D930A /* ViewController.swift */; };
-		ED06DFD728E7B04B008D930A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED06DFD528E7B04B008D930A /* Main.storyboard */; };
+		ED06DFD428E7B04B008D930A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED06DFD328E7B04B008D930A /* MainViewController.swift */; };
 		ED06DFD928E7B04C008D930A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED06DFD828E7B04C008D930A /* Assets.xcassets */; };
 		ED06DFDC28E7B04C008D930A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED06DFDA28E7B04C008D930A /* LaunchScreen.storyboard */; };
+		ED06DFED28E7B552008D930A /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED06DFEB28E7B552008D930A /* Roboto-Bold.ttf */; };
+		ED06DFEE28E7B552008D930A /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED06DFEC28E7B552008D930A /* Roboto-Medium.ttf */; };
+		ED06DFF028E7B649008D930A /* UIFont + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED06DFEF28E7B649008D930A /* UIFont + Extensions.swift */; };
+		ED06DFF228E7B662008D930A /* UIView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED06DFF128E7B662008D930A /* UIView + Extensions.swift */; };
+		ED06DFF428E7B676008D930A /* UIColor + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED06DFF328E7B676008D930A /* UIColor + Extensions.swift */; };
+		ED06DFF628E7B68C008D930A /* UIStackView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED06DFF528E7B68B008D930A /* UIStackView + Extensions.swift */; };
+		ED06DFF928E7C432008D930A /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED06DFF828E7C432008D930A /* CalendarView.swift */; };
+		ED06DFFC28E7C588008D930A /* CalendarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED06DFFB28E7C588008D930A /* CalendarCollectionViewCell.swift */; };
+		ED6CA81228EBA2040031C58F /* WorkoutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CA81128EBA2040031C58F /* WorkoutTableViewCell.swift */; };
+		ED6CA81428EBA3F80031C58F /* UILabel + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CA81328EBA3F80031C58F /* UILabel + Extensions.swift */; };
+		ED6CA81628EBA53D0031C58F /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CA81528EBA53D0031C58F /* WeatherView.swift */; };
+		ED6CA81928EBA5E30031C58F /* DateAndRepeatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CA81828EBA5E30031C58F /* DateAndRepeatView.swift */; };
+		ED6CA81B28EBA6020031C58F /* RepsOrTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CA81A28EBA6020031C58F /* RepsOrTimerView.swift */; };
+		ED6CA81D28EBA6260031C58F /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CA81C28EBA6260031C58F /* MainTabBarController.swift */; };
+		ED6CA81F28EBA66F0031C58F /* NewWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CA81E28EBA66F0031C58F /* NewWorkoutViewController.swift */; };
+		ED6CA82128EBA68D0031C58F /* StatisticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CA82028EBA68D0031C58F /* StatisticViewController.swift */; };
+		ED6CA82328EBA6A30031C58F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CA82228EBA6A30031C58F /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ED06DFCC28E7B04B008D930A /* MySports.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySports.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED06DFCF28E7B04B008D930A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED06DFD128E7B04B008D930A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ED06DFD328E7B04B008D930A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ED06DFD628E7B04B008D930A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED06DFD328E7B04B008D930A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		ED06DFD828E7B04C008D930A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED06DFDB28E7B04C008D930A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED06DFDD28E7B04C008D930A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED06DFEB28E7B552008D930A /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		ED06DFEC28E7B552008D930A /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		ED06DFEF28E7B649008D930A /* UIFont + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont + Extensions.swift"; sourceTree = "<group>"; };
+		ED06DFF128E7B662008D930A /* UIView + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extensions.swift"; sourceTree = "<group>"; };
+		ED06DFF328E7B676008D930A /* UIColor + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extensions.swift"; sourceTree = "<group>"; };
+		ED06DFF528E7B68B008D930A /* UIStackView + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView + Extensions.swift"; sourceTree = "<group>"; };
+		ED06DFF828E7C432008D930A /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		ED06DFFB28E7C588008D930A /* CalendarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCollectionViewCell.swift; sourceTree = "<group>"; };
+		ED6CA81128EBA2040031C58F /* WorkoutTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTableViewCell.swift; sourceTree = "<group>"; };
+		ED6CA81328EBA3F80031C58F /* UILabel + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel + Extensions.swift"; sourceTree = "<group>"; };
+		ED6CA81528EBA53D0031C58F /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		ED6CA81828EBA5E30031C58F /* DateAndRepeatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateAndRepeatView.swift; sourceTree = "<group>"; };
+		ED6CA81A28EBA6020031C58F /* RepsOrTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepsOrTimerView.swift; sourceTree = "<group>"; };
+		ED6CA81C28EBA6260031C58F /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		ED6CA81E28EBA66F0031C58F /* NewWorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWorkoutViewController.swift; sourceTree = "<group>"; };
+		ED6CA82028EBA68D0031C58F /* StatisticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticViewController.swift; sourceTree = "<group>"; };
+		ED6CA82228EBA6A30031C58F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +88,119 @@
 		ED06DFCE28E7B04B008D930A /* MySports */ = {
 			isa = PBXGroup;
 			children = (
+				ED06DFE328E7B390008D930A /* Application */,
+				ED06DFE428E7B3C4008D930A /* Models */,
+				ED06DFE628E7B3DB008D930A /* Views */,
+				ED06DFE528E7B3CD008D930A /* Controllers */,
+				ED06DFE728E7B3FD008D930A /* Extensions */,
+				ED06DFE828E7B41B008D930A /* Resources */,
+			);
+			path = MySports;
+			sourceTree = "<group>";
+		};
+		ED06DFE328E7B390008D930A /* Application */ = {
+			isa = PBXGroup;
+			children = (
 				ED06DFCF28E7B04B008D930A /* AppDelegate.swift */,
 				ED06DFD128E7B04B008D930A /* SceneDelegate.swift */,
-				ED06DFD328E7B04B008D930A /* ViewController.swift */,
-				ED06DFD528E7B04B008D930A /* Main.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		ED06DFE428E7B3C4008D930A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ED06DFE528E7B3CD008D930A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ED6CA81C28EBA6260031C58F /* MainTabBarController.swift */,
+				ED06DFD328E7B04B008D930A /* MainViewController.swift */,
+				ED6CA81E28EBA66F0031C58F /* NewWorkoutViewController.swift */,
+				ED6CA82028EBA68D0031C58F /* StatisticViewController.swift */,
+				ED6CA82228EBA6A30031C58F /* ProfileViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ED06DFE628E7B3DB008D930A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ED06DFF728E7C41F008D930A /* MainVC */,
+				ED6CA81728EBA56E0031C58F /* NewWorkoutVC */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ED06DFE728E7B3FD008D930A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ED06DFE928E7B45E008D930A /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		ED06DFE828E7B41B008D930A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ED06DFEA28E7B4C7008D930A /* Fonts */,
 				ED06DFD828E7B04C008D930A /* Assets.xcassets */,
 				ED06DFDA28E7B04C008D930A /* LaunchScreen.storyboard */,
 				ED06DFDD28E7B04C008D930A /* Info.plist */,
 			);
-			path = MySports;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ED06DFE928E7B45E008D930A /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				ED06DFEF28E7B649008D930A /* UIFont + Extensions.swift */,
+				ED06DFF128E7B662008D930A /* UIView + Extensions.swift */,
+				ED06DFF328E7B676008D930A /* UIColor + Extensions.swift */,
+				ED06DFF528E7B68B008D930A /* UIStackView + Extensions.swift */,
+				ED6CA81328EBA3F80031C58F /* UILabel + Extensions.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		ED06DFEA28E7B4C7008D930A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				ED06DFEB28E7B552008D930A /* Roboto-Bold.ttf */,
+				ED06DFEC28E7B552008D930A /* Roboto-Medium.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		ED06DFF728E7C41F008D930A /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				ED06DFFA28E7C578008D930A /* Cell */,
+				ED06DFF828E7C432008D930A /* CalendarView.swift */,
+				ED6CA81528EBA53D0031C58F /* WeatherView.swift */,
+			);
+			path = MainVC;
+			sourceTree = "<group>";
+		};
+		ED06DFFA28E7C578008D930A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				ED06DFFB28E7C588008D930A /* CalendarCollectionViewCell.swift */,
+				ED6CA81128EBA2040031C58F /* WorkoutTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		ED6CA81728EBA56E0031C58F /* NewWorkoutVC */ = {
+			isa = PBXGroup;
+			children = (
+				ED6CA81828EBA5E30031C58F /* DateAndRepeatView.swift */,
+				ED6CA81A28EBA6020031C58F /* RepsOrTimerView.swift */,
+			);
+			path = NewWorkoutVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +261,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED06DFEE28E7B552008D930A /* Roboto-Medium.ttf in Resources */,
 				ED06DFDC28E7B04C008D930A /* LaunchScreen.storyboard in Resources */,
 				ED06DFD928E7B04C008D930A /* Assets.xcassets in Resources */,
-				ED06DFD728E7B04B008D930A /* Main.storyboard in Resources */,
+				ED06DFED28E7B552008D930A /* Roboto-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +275,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED06DFD428E7B04B008D930A /* ViewController.swift in Sources */,
+				ED06DFF228E7B662008D930A /* UIView + Extensions.swift in Sources */,
+				ED6CA81428EBA3F80031C58F /* UILabel + Extensions.swift in Sources */,
+				ED6CA81D28EBA6260031C58F /* MainTabBarController.swift in Sources */,
+				ED06DFF028E7B649008D930A /* UIFont + Extensions.swift in Sources */,
+				ED6CA81628EBA53D0031C58F /* WeatherView.swift in Sources */,
+				ED06DFF928E7C432008D930A /* CalendarView.swift in Sources */,
+				ED6CA82328EBA6A30031C58F /* ProfileViewController.swift in Sources */,
+				ED6CA81928EBA5E30031C58F /* DateAndRepeatView.swift in Sources */,
+				ED6CA81228EBA2040031C58F /* WorkoutTableViewCell.swift in Sources */,
+				ED06DFF628E7B68C008D930A /* UIStackView + Extensions.swift in Sources */,
+				ED06DFD428E7B04B008D930A /* MainViewController.swift in Sources */,
+				ED6CA81B28EBA6020031C58F /* RepsOrTimerView.swift in Sources */,
+				ED06DFF428E7B676008D930A /* UIColor + Extensions.swift in Sources */,
+				ED06DFFC28E7C588008D930A /* CalendarCollectionViewCell.swift in Sources */,
+				ED6CA81F28EBA66F0031C58F /* NewWorkoutViewController.swift in Sources */,
+				ED6CA82128EBA68D0031C58F /* StatisticViewController.swift in Sources */,
 				ED06DFD028E7B04B008D930A /* AppDelegate.swift in Sources */,
 				ED06DFD228E7B04B008D930A /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +299,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		ED06DFD528E7B04B008D930A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ED06DFD628E7B04B008D930A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ED06DFDA28E7B04C008D930A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,12 +433,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZS9WJPVLU3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MySports/Info.plist;
+				INFOPLIST_FILE = MySports/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MySports;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +447,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Gunich-Korol.MySports";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,12 +465,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZS9WJPVLU3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MySports/Info.plist;
+				INFOPLIST_FILE = MySports/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MySports;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +479,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Gunich-Korol.MySports";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
